@@ -1,0 +1,39 @@
+D:\west_BOT\WestChatBot\WestChatBot\bin\Bot Application1.dll.config
+D:\west_BOT\WestChatBot\WestChatBot\bin\Bot Application1.dll
+D:\west_BOT\WestChatBot\WestChatBot\bin\Bot Application1.pdb
+D:\west_BOT\WestChatBot\WestChatBot\bin\Autofac.dll
+D:\west_BOT\WestChatBot\WestChatBot\bin\Chronic.dll
+D:\west_BOT\WestChatBot\WestChatBot\bin\Microsoft.Bot.Builder.dll
+D:\west_BOT\WestChatBot\WestChatBot\bin\Microsoft.Bot.Connector.dll
+D:\west_BOT\WestChatBot\WestChatBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\west_BOT\WestChatBot\WestChatBot\bin\Microsoft.Rest.ClientRuntime.dll
+D:\west_BOT\WestChatBot\WestChatBot\bin\Microsoft.WindowsAzure.Configuration.dll
+D:\west_BOT\WestChatBot\WestChatBot\bin\Newtonsoft.Json.dll
+D:\west_BOT\WestChatBot\WestChatBot\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\west_BOT\WestChatBot\WestChatBot\bin\System.Net.Http.Formatting.dll
+D:\west_BOT\WestChatBot\WestChatBot\bin\System.Web.Http.dll
+D:\west_BOT\WestChatBot\WestChatBot\bin\System.Web.Http.WebHost.dll
+D:\west_BOT\WestChatBot\WestChatBot\bin\Autofac.xml
+D:\west_BOT\WestChatBot\WestChatBot\bin\Microsoft.Bot.Builder.xml
+D:\west_BOT\WestChatBot\WestChatBot\bin\Microsoft.Bot.Connector.xml
+D:\west_BOT\WestChatBot\WestChatBot\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+D:\west_BOT\WestChatBot\WestChatBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\west_BOT\WestChatBot\WestChatBot\bin\Microsoft.Rest.ClientRuntime.xml
+D:\west_BOT\WestChatBot\WestChatBot\bin\Microsoft.WindowsAzure.Configuration.xml
+D:\west_BOT\WestChatBot\WestChatBot\bin\Newtonsoft.Json.xml
+D:\west_BOT\WestChatBot\WestChatBot\bin\System.IdentityModel.Tokens.Jwt.pdb
+D:\west_BOT\WestChatBot\WestChatBot\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\west_BOT\WestChatBot\WestChatBot\bin\System.Net.Http.Formatting.xml
+D:\west_BOT\WestChatBot\WestChatBot\bin\System.Web.Http.xml
+D:\west_BOT\WestChatBot\WestChatBot\bin\System.Web.Http.WebHost.xml
+D:\west_BOT\WestChatBot\WestChatBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+D:\west_BOT\WestChatBot\WestChatBot\bin\en\Microsoft.Bot.Builder.resources.dll
+D:\west_BOT\WestChatBot\WestChatBot\bin\es\Microsoft.Bot.Builder.resources.dll
+D:\west_BOT\WestChatBot\WestChatBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+D:\west_BOT\WestChatBot\WestChatBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+D:\west_BOT\WestChatBot\WestChatBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+D:\west_BOT\WestChatBot\WestChatBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+D:\west_BOT\WestChatBot\WestChatBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+D:\west_BOT\WestChatBot\WestChatBot\obj\Debug\WestChatBot.csprojResolveAssemblyReference.cache
+D:\west_BOT\WestChatBot\WestChatBot\obj\Debug\Bot Application1.dll
+D:\west_BOT\WestChatBot\WestChatBot\obj\Debug\Bot Application1.pdb
