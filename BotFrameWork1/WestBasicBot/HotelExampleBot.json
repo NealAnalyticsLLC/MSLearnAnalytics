@@ -1,0 +1,1041 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "HotelExampleBot",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "Buy"
+    },
+    {
+      "name": "BuyHikingBoots"
+    },
+    {
+      "name": "EndIntent"
+    },
+    {
+      "name": "FindHikes"
+    },
+    {
+      "name": "ForgotTrailPass"
+    },
+    {
+      "name": "GetCampingDay"
+    },
+    {
+      "name": "GetPeople"
+    },
+    {
+      "name": "GetStoreList"
+    },
+    {
+      "name": "GetTent"
+    },
+    {
+      "name": "GetTrailPass"
+    },
+    {
+      "name": "Help"
+    },
+    {
+      "name": "LifeSaver"
+    },
+    {
+      "name": "MeasureDistance"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "PutHold"
+    },
+    {
+      "name": "PutTentHold"
+    },
+    {
+      "name": "SearchCamping"
+    },
+    {
+      "name": "SelectDanner"
+    },
+    {
+      "name": "SelectOption"
+    },
+    {
+      "name": "SelectResort"
+    }
+  ],
+  "entities": [
+    {
+      "name": "AirportCode"
+    },
+    {
+      "name": "Hotel"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [
+    "geography"
+  ],
+  "actions": [],
+  "model_features": [
+    {
+      "name": "Near",
+      "mode": true,
+      "words": "near,around,close,nearby",
+      "activated": true
+    },
+    {
+      "name": "Show",
+      "mode": true,
+      "words": "show,find,look,search",
+      "activated": true
+    }
+  ],
+  "regex_features": [
+    {
+      "name": "AirportCodeRegex",
+      "pattern": "[a-z]{3}",
+      "activated": true
+    }
+  ],
+  "utterances": [
+    {
+      "text": "search for hotels in seattle",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "show me the reviews of the amazing bot resort",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Hotel",
+          "startPos": 5,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "show me reviews of the amazing hotel",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Hotel",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "show me hotels in california",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "can i see the reviews of extended bot hotel?",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Hotel",
+          "startPos": 6,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "look for hotels in miami",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "find reviews of hotelxya",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Hotel",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "show hotels near att airport",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "AirportCode",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "find hotels around eze airport",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "AirportCode",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "where can i stay near nnn?",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "AirportCode",
+          "startPos": 5,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "i need help",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "find hotels near agl",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "AirportCode",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "find hotels near eze",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "AirportCode",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "what can i do?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "help me",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "what are the reviews of the hotel bot framework?",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Hotel",
+          "startPos": 5,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "what are the available options?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "best hotels in seattle",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "can you show me hotels from los angeles?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hotels in los angeles",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "can you show me the reviews of the amazing resort & hotel",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Hotel",
+          "startPos": 7,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "find hotel near yyz airport",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "AirportCode",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "hello",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "near surat",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "AirportCode",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "hi",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "i want to find hotel near surat",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "AirportCode",
+          "startPos": 6,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "i want to find hotel near gujarat",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "AirportCode",
+          "startPos": 6,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "give me review of hotel gateway inn",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "search hotel in seattle",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "give camping options",
+      "intent": "SearchCamping",
+      "entities": []
+    },
+    {
+      "text": "camping options",
+      "intent": "SearchCamping",
+      "entities": []
+    },
+    {
+      "text": "i need camping options",
+      "intent": "SearchCamping",
+      "entities": []
+    },
+    {
+      "text": "we have made sudden plans for camping next weekend. can you suggest some good options nearby?",
+      "intent": "SearchCamping",
+      "entities": [
+        {
+          "entity": "AirportCode",
+          "startPos": 17,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "i want camping options",
+      "intent": "SearchCamping",
+      "entities": []
+    },
+    {
+      "text": "i need to go 50 miles",
+      "intent": "MeasureDistance",
+      "entities": []
+    },
+    {
+      "text": "i am choosing option 4",
+      "intent": "SelectOption",
+      "entities": []
+    },
+    {
+      "text": "50 miles",
+      "intent": "MeasureDistance",
+      "entities": []
+    },
+    {
+      "text": "good options for camping",
+      "intent": "SearchCamping",
+      "entities": []
+    },
+    {
+      "text": "80 miles",
+      "intent": "MeasureDistance",
+      "entities": []
+    },
+    {
+      "text": "option 6",
+      "intent": "SelectOption",
+      "entities": []
+    },
+    {
+      "text": "70 miles",
+      "intent": "MeasureDistance",
+      "entities": []
+    },
+    {
+      "text": "40 miles",
+      "intent": "MeasureDistance",
+      "entities": []
+    },
+    {
+      "text": "60 miles",
+      "intent": "MeasureDistance",
+      "entities": []
+    },
+    {
+      "text": "any nice hikes?",
+      "intent": "FindHikes",
+      "entities": []
+    },
+    {
+      "text": "i need to get a tent",
+      "intent": "GetTent",
+      "entities": []
+    },
+    {
+      "text": "option 4",
+      "intent": "SelectOption",
+      "entities": []
+    },
+    {
+      "text": "option 5",
+      "intent": "SelectOption",
+      "entities": []
+    },
+    {
+      "text": "5",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "option4",
+      "intent": "SelectOption",
+      "entities": []
+    },
+    {
+      "text": "hikes",
+      "intent": "FindHikes",
+      "entities": []
+    },
+    {
+      "text": "hike",
+      "intent": "FindHikes",
+      "entities": []
+    },
+    {
+      "text": "do you know if they have any nice hikes?",
+      "intent": "FindHikes",
+      "entities": []
+    },
+    {
+      "text": "8 people",
+      "intent": "GetPeople",
+      "entities": []
+    },
+    {
+      "text": "i need tent",
+      "intent": "GetTent",
+      "entities": []
+    },
+    {
+      "text": "8",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "that's great. i need to get a tent as we are a bigger group than usual.",
+      "intent": "GetTent",
+      "entities": []
+    },
+    {
+      "text": "option 8",
+      "intent": "SelectOption",
+      "entities": []
+    },
+    {
+      "text": "fidalgo bay resort",
+      "intent": "SelectResort",
+      "entities": []
+    },
+    {
+      "text": "harbour pointe rv park",
+      "intent": "SelectResort",
+      "entities": []
+    },
+    {
+      "text": "eagle tree rv park",
+      "intent": "SelectResort",
+      "entities": []
+    },
+    {
+      "text": "deep lake resort",
+      "intent": "SelectResort",
+      "entities": []
+    },
+    {
+      "text": "mount vernon rv campground",
+      "intent": "SelectResort",
+      "entities": []
+    },
+    {
+      "text": "i would like to buy it",
+      "intent": "Buy",
+      "entities": []
+    },
+    {
+      "text": "i'd like the list of stores",
+      "intent": "GetStoreList",
+      "entities": []
+    },
+    {
+      "text": "great. this very useful. we will also need a new tent as we have a bigger group. can you suggest a good tent?",
+      "intent": "GetTent",
+      "entities": []
+    },
+    {
+      "text": "find me hotel",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "tent",
+      "intent": "GetTent",
+      "entities": []
+    },
+    {
+      "text": "hiking, kayaking and bird-watching",
+      "intent": "FindHikes",
+      "entities": []
+    },
+    {
+      "text": "yes i would like to look at it before buying it",
+      "intent": "Buy",
+      "entities": []
+    },
+    {
+      "text": "camping sites",
+      "intent": "SearchCamping",
+      "entities": []
+    },
+    {
+      "text": "help",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "zula",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "whos the president",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what can you do for me?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "camp sites",
+      "intent": "SearchCamping",
+      "entities": []
+    },
+    {
+      "text": "camping",
+      "intent": "SearchCamping",
+      "entities": []
+    },
+    {
+      "text": "any hikes",
+      "intent": "FindHikes",
+      "entities": []
+    },
+    {
+      "text": "do they have nice hikes?",
+      "intent": "FindHikes",
+      "entities": []
+    },
+    {
+      "text": "weather",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "activities",
+      "intent": "FindHikes",
+      "entities": []
+    },
+    {
+      "text": "get tent",
+      "intent": "GetTent",
+      "entities": []
+    },
+    {
+      "text": "fidalgo bay",
+      "intent": "SelectResort",
+      "entities": []
+    },
+    {
+      "text": "i am interested in buying hiking boots.",
+      "intent": "BuyHikingBoots",
+      "entities": []
+    },
+    {
+      "text": "hiking boots",
+      "intent": "BuyHikingBoots",
+      "entities": []
+    },
+    {
+      "text": "more options",
+      "intent": "SelectOption",
+      "entities": []
+    },
+    {
+      "text": "danner",
+      "intent": "SelectDanner",
+      "entities": []
+    },
+    {
+      "text": "i want to choose danner",
+      "intent": "SelectDanner",
+      "entities": []
+    },
+    {
+      "text": "please put it on hold for me.",
+      "intent": "PutHold",
+      "entities": []
+    },
+    {
+      "text": "no i am good",
+      "intent": "EndIntent",
+      "entities": []
+    },
+    {
+      "text": "hey",
+      "intent": "GetCampingDay",
+      "entities": []
+    },
+    {
+      "text": "option5",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i totally forgot to check. does this place need a trail pass for hiking?",
+      "intent": "GetTrailPass",
+      "entities": []
+    },
+    {
+      "text": "trail pass",
+      "intent": "GetTrailPass",
+      "entities": []
+    },
+    {
+      "text": "damn it. what to do now.",
+      "intent": "ForgotTrailPass",
+      "entities": []
+    },
+    {
+      "text": "forgot my trail pass",
+      "intent": "ForgotTrailPass",
+      "entities": []
+    },
+    {
+      "text": "you are a life saver",
+      "intent": "LifeSaver",
+      "entities": []
+    },
+    {
+      "text": "life saver",
+      "intent": "LifeSaver",
+      "entities": []
+    },
+    {
+      "text": "awesome",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "good",
+      "intent": "EndIntent",
+      "entities": []
+    },
+    {
+      "text": "sama",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how are you?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "thanks",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "yes",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "list of stores",
+      "intent": "GetStoreList",
+      "entities": []
+    },
+    {
+      "text": "i would like to look at it",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "thanx",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "who is the president?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "second option",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "store list",
+      "intent": "GetStoreList",
+      "entities": []
+    },
+    {
+      "text": "zula life saver",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "kaushal",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "rushik",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "get store list",
+      "intent": "GetStoreList",
+      "entities": []
+    },
+    {
+      "text": "you are life saver",
+      "intent": "LifeSaver",
+      "entities": []
+    },
+    {
+      "text": "urmi",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": ".awesome!! you are a life saver",
+      "intent": "LifeSaver",
+      "entities": []
+    },
+    {
+      "text": "put it on hold for me",
+      "intent": "PutHold",
+      "entities": []
+    },
+    {
+      "text": "president",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hiking,birdwatching",
+      "intent": "SelectResort",
+      "entities": []
+    },
+    {
+      "text": "that would be great. i am interested in buying hiking boots.",
+      "intent": "BuyHikingBoots",
+      "entities": []
+    },
+    {
+      "text": "fidalgo bay report",
+      "intent": "SelectResort",
+      "entities": []
+    },
+    {
+      "text": "great deal !! please put it on hold for me.",
+      "intent": "PutHold",
+      "entities": []
+    },
+    {
+      "text": "does this place need a trail pass for hiking?",
+      "intent": "GetTrailPass",
+      "entities": []
+    },
+    {
+      "text": "plan for camping",
+      "intent": "SearchCamping",
+      "entities": []
+    },
+    {
+      "text": "people",
+      "intent": "GetPeople",
+      "entities": []
+    },
+    {
+      "text": "buy",
+      "intent": "Buy",
+      "entities": []
+    },
+    {
+      "text": "i want to buy it",
+      "intent": "Buy",
+      "entities": []
+    },
+    {
+      "text": "options",
+      "intent": "SelectOption",
+      "entities": []
+    },
+    {
+      "text": "i need more options",
+      "intent": "SelectOption",
+      "entities": []
+    },
+    {
+      "text": "i like danner",
+      "intent": "SelectDanner",
+      "entities": []
+    },
+    {
+      "text": "i would liked to purchase danner",
+      "intent": "SelectDanner",
+      "entities": []
+    },
+    {
+      "text": "i would like to purchase danner",
+      "intent": "SelectDanner",
+      "entities": []
+    },
+    {
+      "text": "put it on hold",
+      "intent": "PutHold",
+      "entities": []
+    },
+    {
+      "text": "put on hold",
+      "intent": "PutHold",
+      "entities": []
+    },
+    {
+      "text": "i want you to put it on hold",
+      "intent": "PutHold",
+      "entities": []
+    },
+    {
+      "text": "is there anything else i can help you with?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "oh, i forgot the trail pass",
+      "intent": "ForgotTrailPass",
+      "entities": []
+    },
+    {
+      "text": "oh,i forgot to take trail pass",
+      "intent": "ForgotTrailPass",
+      "entities": []
+    },
+    {
+      "text": "hiking, kayaking",
+      "intent": "SelectResort",
+      "entities": []
+    },
+    {
+      "text": "who is bird?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "5 people",
+      "intent": "GetPeople",
+      "entities": []
+    },
+    {
+      "text": "aa",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hiking",
+      "intent": "SelectResort",
+      "entities": []
+    },
+    {
+      "text": "4",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "no i am done",
+      "intent": "EndIntent",
+      "entities": []
+    },
+    {
+      "text": "awesome!! you are a life saver.",
+      "intent": "LifeSaver",
+      "entities": []
+    },
+    {
+      "text": "i would like to purchase it",
+      "intent": "Buy",
+      "entities": []
+    },
+    {
+      "text": "yes. the bellevue store",
+      "intent": "PutTentHold",
+      "entities": []
+    },
+    {
+      "text": "the bellevue store",
+      "intent": "PutTentHold",
+      "entities": []
+    },
+    {
+      "text": "put tent on hold",
+      "intent": "PutTentHold",
+      "entities": []
+    },
+    {
+      "text": "great deal",
+      "intent": "PutHold",
+      "entities": []
+    },
+    {
+      "text": "hold",
+      "intent": "PutHold",
+      "entities": []
+    },
+    {
+      "text": "where can i get a pass?",
+      "intent": "ForgotTrailPass",
+      "entities": []
+    },
+    {
+      "text": "great. thanks!",
+      "intent": "LifeSaver",
+      "entities": []
+    },
+    {
+      "text": "no. we're going to hit to road.",
+      "intent": "EndIntent",
+      "entities": []
+    },
+    {
+      "text": "great thanks",
+      "intent": "LifeSaver",
+      "entities": []
+    },
+    {
+      "text": "would you like me to have the tent put on hold for you at any of these stores?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hiking,kayaking",
+      "intent": "FindHikes",
+      "entities": []
+    },
+    {
+      "text": "hiking,kayking",
+      "intent": "FindHikes",
+      "entities": []
+    },
+    {
+      "text": "no.we're going to hit the road.",
+      "intent": "EndIntent",
+      "entities": []
+    },
+    {
+      "text": "no. we're going to hit the road.",
+      "intent": "EndIntent",
+      "entities": []
+    },
+    {
+      "text": "no. we're going to hit to road",
+      "intent": "EndIntent",
+      "entities": []
+    },
+    {
+      "text": "hit the road",
+      "intent": "EndIntent",
+      "entities": []
+    },
+    {
+      "text": "i am good",
+      "intent": "EndIntent",
+      "entities": []
+    },
+    {
+      "text": "no thanks. i’m good",
+      "intent": "EndIntent",
+      "entities": []
+    },
+    {
+      "text": "no thanks.i’m good",
+      "intent": "EndIntent",
+      "entities": []
+    },
+    {
+      "text": "no thanks.i'm good",
+      "intent": "EndIntent",
+      "entities": []
+    },
+    {
+      "text": "no thanks. i'm good",
+      "intent": "EndIntent",
+      "entities": []
+    }
+  ]
+}
